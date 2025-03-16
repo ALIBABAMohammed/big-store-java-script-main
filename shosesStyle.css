@@ -1,0 +1,126 @@
+.product-items{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+.item {
+    padding: 15px;
+    margin: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.item img {
+    width: 230px;
+    height: 250px;
+}
+.head-title{
+    text-align: left;
+    margin-left: 114px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family:  "DM Sans", sans-serif;
+}
+.select{
+    margin: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-select, .sort-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.select-item{
+
+}
+.filter-elements, .sort-elements{
+    margin: 0 20px;
+}
+.filter-elements{
+    position: relative;
+    display: flex;
+}
+.select-avability{
+    position: absolute;
+    cursor: pointer;
+    top: 46px;
+    left: -9px;
+    display: none;
+    /* width: 35rem; */
+    max-height: 55rem;
+    overflow-y: auto;
+    border-radius: 15px;
+    background-color: rgb(244, 244, 244);
+    animation: .2s ease;
+}
+.facet{
+    width: 340px;
+    border: 1px solid rgba(43, 45, 41, .1);
+}
+.facet-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(45, 43, 41, .1);
+}
+.fieldset{
+    margin-top: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+.fieldset ul{
+    list-style: none;
+}
+.fieledset-list{
+
+}
+.list-menu{
+    padding-bottom: 15px;
+}
+.facets-label{
+    display: flex;
+}
+.facets-input{
+    margin-right: 15px;
+}
+.fa-chevron-down{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: 14px;
+}
+.input-label{
+
+}
+.select-price{
+    position: absolute;
+    top: 46px;
+    left: 111px;
+    display: none;
+    width: 340px;
+    max-height: 55rem;
+    overflow-y: auto;
+    border-radius: 15px;
+    background-color: rgb(244, 244, 244);
+    animation: .2s ease;
+}
+.facets-price{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.field{
+    margin: 10px 10px 10px 4px;
+}
+.input-price{
+    width: 100px;
+    border-radius: 8px;
+    height: 40px;
+}

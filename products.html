@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shosesStyle.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <p>
+              FREE SHIPPING ON ORDERS ABOVE RS.2500⚡
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              The Divine Shop Summer Collective Is Live Now ❤️‍🔥
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              The Divine Shop Summer Collective Is Live Now ❤️‍🔥 FREE SHIPPING ON ORDERS ABOVE RS.2500⚡
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              The Divine Shop Summer Collective Is Live Now ❤️‍🔥 FREE SHIPPING ON ORDERS ABOVE RS.2500⚡
+            </p>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+         <div class="resize">
+           <div class="resize swiper-button-prev"></div>
+         </div>
+         <div class="resize">
+           <div class="resize swiper-button-next"></div>
+         </div>
+      </div>
+        <header>
+          <div class="logo"><a href="#">ShoPperZ</a></div>
+          <div class="menu">
+            <a href="#">
+              <ion-icon name="close" class="close"></ion-icon>
+            </a>
+      
+            <ul>
+              <li><a href="#" class="under">HOME</a></li>
+              <li><a href="#" class="under">SHOP</a></li>
+              <li><a href="#" class="under">OUR PRODUCTS</a></li>
+              <li><a href="#" class="under">CONTACT US</a></li>
+              <li><a href="#" class="under">ABOUT US</a></li>
+            </ul>
+          </div>
+          <div class="search">
+      
+            <input type="text" placeholder="search products" id="input">
+            <a href="">
+              <ion-icon class="s" name="search"></ion-icon>
+            </a>
+          </div>
+          <div class="heading">
+            <ul>
+              <li><a href="#" class="under">HOME</a></li>
+              <li><a href="#" class="under shop">SHOP</a></li>
+              <li><a href="#" class="under">OUR PRODUCTS</a></li>
+              <li><a href="#" class="under">CONTACT US</a></li>
+              <li><a href="#" class="under">ABOUT US</a></li>
+            </ul>
+          </div>
+          <div class="heading1">
+            <ion-icon name="menu" class="ham"></ion-icon>
+          </div>
+        </header>
+        <section>
+            <h1 class="head-title">Shoses</h1>
+            <div class="product-section">
+                <div class="container">
+                    <div class="select">
+                        <div class="filter-select">
+                            <h3>Filter:</h3>
+                            <div class="filter-elements">
+                              <div class="filter-element">
+                                <span>Avability</span><i class="fa-solid fa-chevron-down"></i>
+                                <div class="select-avability">
+                                  <div class="card-avability">
+                                    <div class="facet">
+                                      <div class="facet-header">
+                                        <div>
+                                          <span>0 Selected</span>
+                                        </div>
+                                        <a href="products.html" id="reset">Reset</a>
+                                      </div>
+                                      <fieldset class="fieldset">
+                                        <ul class="fieledset-list">
+                                          <li class="list-menu">
+                                            <label class="facets-label">
+                                              <input type="checkbox" class="facets-input">
+                                              <span class="input-label">In stock <span>(17)</span></span>
+                                            </label>
+                                          </li>
+                                          <li class="list-menu">
+                                            <label class="facets-label">
+                                              <input type="checkbox" class="facets-input">
+                                              <span class="input-label">Out Of stock</span>
+                                            </label>
+                                          </li>
+                                        </ul>
+                                      </fieldset>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="filter-element">
+                                    <span>Price</span><i class="fa-solid fa-chevron-down"></i>
+                                  <div class="select-price">
+                                    <div class="card-price">
+                                      <div class="facet">
+                                        <div class="facet-header">
+                                          <div>
+                                            <span>The highest price is Rs.2,999.00</span>
+                                          </div>
+                                          <a href="products.html" id="reset">Reset</a>
+                                        </div>
+                                        <div class="facets-price">
+                                          <span>Rs</span>
+                                          <div class="field"><input type="text" class="input-price"><label for=""></label></div>
+                                          <span>Rs</span>
+                                          <div class="field"><input type="text" class="input-price"><label for=""></label></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-select">
+                            <h3>Sort By:</h3>
+                            <div class="sort-elements">
+                                <span class="avability">Avability</span>
+                                <select name="sort_by" id="sortBy" class="select-item">
+                                    <option value="manuel">Fetured</option>
+                                    <option value="manuel">Best seler</option>
+                                    <option value="manuel">Price, Height to Low</option>
+                                    <option value="manuel">Price, Low to height</option>
+                                    <option value="manuel">Date, New Collections</option>
+                                    <option value="manuel">Date, Old Collections</option>
+                                    <option value="manuel">Moda</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-items">
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736454927/nikeShoes_p7rtdm.jpg" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736271347/samples/ecommerce/accessories-bag.jpg" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736271346/samples/ecommerce/shoes.png" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736271352/samples/shoe.jpg" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736271356/cld-sample-3.jpg" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736454990/shoes_udhfvr.webp" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images.pexels.com/photos/6858618/pexels-photo-6858618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://res.cloudinary.com/ddni17xfb/image/upload/v1736271356/cld-sample-5.jpg" alt="">
+                            <div class="info">
+                                <h4 class="description">first image contain clothes</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </div>
+                                  <p>₹500.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script type="module" src="shoes.js"></script>
+        <script type="module" src="script.js"></script>
+</body>
+</html>
